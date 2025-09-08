@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="nl">
+  <head>
+    <title>Contact · Mijn Website</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Persoonlijke website: portfolio, over mij en contact." />
+    <meta name="generator" content="VS Code" />
+    <meta name="theme-color" content="#0ea5e9" />
+    <meta name="robots" content="index, follow" />
+    <link rel="icon" type="image/svg+xml" href="/assets/img/favicon.svg" />
+    <link rel="manifest" href="/manifest.webmanifest" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Mijn Website" />
+    <meta property="og:title" content="Welkom - Mijn Website" />
+    <meta property="og:description" content="Portfolio, over mij en contact." />
+    <meta property="og:image" content="https://example.com/og.png" />
+    <link rel="canonical" href="https://example.github.io/" />
+    <link rel="preload" href="/assets/css/style.css" as="style" />
+    <link rel="stylesheet" href="/assets/css/style.css" />
+
+  </head>
+  <body>
+<header class="site-header" role="banner">
+  <a class="brand" href="/index.html" aria-label="Home">
+    <svg width="28" height="28" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2l9 7-9 13L3 9l9-7z" /></svg>
+    <span>Mijn Website</span>
+  </a>
+  <button class="nav-toggle" aria-controls="primary-nav" aria-expanded="false">Menu</button>
+  <nav id="primary-nav" class="nav" role="navigation">
+    <a href="/index.html" aria-current="page">Home</a>
+    <a href="/over.html">Over</a>
+    <a href="/projecten.html">Projecten</a>
+    <a href="/contact.html">Contact</a>
+  </nav>
+</header>
+
+    <main class="container">
+      <h1>Contact</h1>
+      <p>Je kunt dit formulier gebruiken om een e-mail te starten (via je eigen mailprogramma) of vervang het later door een echte backend.</p>
+
+      <form class="contact-form" action="mailto:jouw-email@example.com" method="post" enctype="text/plain">
+        <label for="naam">Naam</label>
+        <input id="naam" name="Naam" type="text" required />
+
+        <label for="email">E-mail</label>
+        <input id="email" name="Email" type="email" required />
+
+        <label for="bericht">Bericht</label>
+        <textarea id="bericht" name="Bericht" rows="6" required></textarea>
+
+        <button class="btn primary" type="submit">Verstuur</button>
+      </form>
+
+      <div class="tip">
+        <p><strong>Tip:</strong> Wil je Google Analytics niet? Goed zo. Deze site heeft het niet nodig 😉</p>
+      </div>
+    </main>
+<footer class="site-footer" role="contentinfo">
+  <p>&copy; <span id="year"></span> Mijn Website · Gemaakt met HTML, CSS & JS · Laatst opgebouwd: 2025-09-08T07:41:09.579984 UTC</p>
+  <a href="#" id="toTop" class="to-top" aria-label="Terug naar boven">↑</a>
+</footer>
+<script src="/assets/js/main.js" defer></script>
+
+  </body>
+</html>
